@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote  name="sai"
-		fetch="https://github.com/Saikrishna1504" />
+	<remote  name="drag"
+		fetch="https://github.com/DragonHunter71" />
 		
-	<remote  name="nova"
-		fetch="https://github.com/Nova-Kernels" />
+	<remote  name="arrow"
+		fetch="https://github.com/acastillorobles77" />
 		
-        <remote  name="tri"
-                fetch="https://github.com/Trinity-ROMS" />
+        <remote  name="kamo"
+                fetch="https://github.com/KangMonkey" />
 
-        <remote  name="clang"
-		fetch="https://gitlab.com/Panchajanya1999" />
+        <remote  name="hard"
+		fetch="https://github.com/ArrowOS-Devices" />
 
  <!-- Device Trees -->
- <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="sai" revision="tiramisu" />
- <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="tri" revision="tiramisu" />
- <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="nova" revision="nova" />
+ <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="drag" revision="revision-13" />
+ <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="kamo" revision="android-13.0" />
+ <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="arrow" revision="arrow-13.1" />
 
  <!-- Extras -->
- <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="tri" revision="tiramisu" />
- <project path="vendor/redmi/begonia-firmware" name="android_vendor_redmi_begonia-firmware" remote="tri" revision="tiramisu" />
- <project path="android/packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="sai" revision="13" />
- <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="sai" revision="tiramisu" />
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="tri" revision="tiramisu" />
- <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="clang" revision="main" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="hard" revision="arrow-13.1" />
 
 </manifest>

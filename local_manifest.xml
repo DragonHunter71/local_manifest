@@ -10,15 +10,9 @@
         <remote  name="kamo"
                 fetch="https://github.com/KangMonkey" />
 
-        <remote  name="hard"
-		fetch="https://github.com/ArrowOS-Devices" />
-
  <!-- Device Trees -->
  <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="drag" revision="revision-13" />
  <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="kamo" revision="android-13.0" />
  <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="arrow" revision="arrow-13.1" />
-
- <!-- Extras -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="hard" revision="arrow-13.1" />
 
 </manifest>

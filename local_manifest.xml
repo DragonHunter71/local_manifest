@@ -11,7 +11,7 @@
                 fetch="https://github.com/KangMonkey" />
 
  <!-- Device Trees -->
- <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="drag" revision="revision-13" />
+ <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="drag" revision="colt-13" />
  <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="kamo" revision="android-13.0" />
  <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="arrow" revision="arrow-13.1" />
 
